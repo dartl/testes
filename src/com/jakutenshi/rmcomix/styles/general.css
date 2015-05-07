@@ -1,0 +1,63 @@
+.navigation {
+    -fx-opacity:0.1;
+    -fx-cursor:hand;
+}
+
+#buttonNext {
+    -fx-background-image: url("images/next.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#buttonPrev {
+    -fx-background-image: url("images/prev.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.navigation:hover {
+    -fx-opacity:1;
+}
+
+#navigationTable {
+    -fx-opacity:0.1;
+    -fx-background-color: linear-gradient(to bottom, #ddd, #efefef);
+    -fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-border-style: solid;
+    -fx-border-color: #ccc;
+}
+
+#navigationTable:hover {
+    -fx-opacity:1;
+}
+
+.toSetting {
+    -fx-background-image: url("images/toSetting.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity:0.1;
+}
+
+.toSetting:hover {
+    -fx-opacity:1;
+}
+
+.toView {
+    -fx-background-image: url("images/toView.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity:0.1;
+}
+
+.toView:hover {
+    -fx-opacity:1;
+}
+
+minButtonNext {
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-background-image: url("images/");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
